@@ -1,4 +1,4 @@
-./dbinit/init.sql linguist-language=SQL
-./models/patients.table.sql linguist-language=SQL
-./models/doctors.table.sql linguist-language=SQL
-./models/appointments.table.sql linguist-language=SQL
+/dbinit/init.sql linguist-language=SQL
+/models/patients.table.sql linguist-language=SQL
+/models/doctors.table.sql linguist-language=SQL
+/models/appointments.table.sql linguist-language=SQL
