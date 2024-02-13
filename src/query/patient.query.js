@@ -1,4 +1,4 @@
-const QUERY = {
+const PATIENT_QUERY = {
   //Sits a good practice to limit data we fetch from tables , thats what LIMIT 100 does
   SELECT_PATIENTS: "SELECT * FROM patients ORDER BY created_at DESC LIMIT 100",
   SELECT_PATIENT: "SELECT * FROM patients WHERE id = ?",
@@ -9,4 +9,4 @@ const QUERY = {
    DELETE_PATIENT: "DELETE FROM patients WHERE id = ?",
 };
 
-export default QUERY
+export default PATIENT_QUERY
